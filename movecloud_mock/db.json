@@ -1,0 +1,68 @@
+{
+  "anomalyDetection": [
+      {
+          "name": "AWS/Engineering Policy",
+          "status": "Last check: 77 weeks ago",
+          "description": "Daily expenses must not exceed the average amount for the last 4 days by 10%",
+          "filters": [
+              "Data Source: AWS HQ",
+              "Pool: Engineering (With Sub-Pools)"
+          ]
+      },
+      {
+          "name": "Instance Count",
+          "status": "Last check: 77 weeks ago",
+          "description": "Daily expenses must not exceed the average amount for the last 7 days by 20%",
+          "filters": [
+              "Resource type: Instance type"
+          ]
+      },
+      {
+          "name": "Marketing Expenses",
+          "status": "Last check: 77 weeks ago",
+          "description": "Daily expenses must not exceed the average amount for the last 30 days by 10%",
+          "filters": [
+              "Pool: Marketing (With Sub-Pools)"
+          ]
+      },
+      {
+          "name": "New Anomaly",
+          "status": "Last check: 1 day ago",
+          "description": "This is a new anomaly",
+          "filters": [
+              "Some filter"
+          ]
+      }
+  ],
+  "taggingData": [
+      {
+          "name": "QA Resources Tagging Policy",
+          "status": "No Status Information Yet",
+          "description": "Resources Tagged With Qua_uuid Must Be Tagged With Aqa Starting From 04/02/2022",
+          "filters": [
+              "Data Sources: Azure QA",
+              "Resource State: Active"
+          ]
+      },
+      {
+          "name": "Bucket Tagging Policy",
+          "status": "No Status Information Yet",
+          "description": "Resources To Be Tagged Starting From 04/02/2022",
+          "filters": [
+              "Data Sources: AWS HQ",
+              "Resource Type: Bucket",
+              "Resource State: Active"
+          ]
+      }
+  ],
+  "submitApplication": {
+      "name": "Submit Application",
+      "status": "Last check: 1 hour ago",
+      "description": "Submit the application for review",
+      "filters": [
+          "Application Type: Standard",
+          "Application State: In Progress"
+      ]
+  }
+  
+}
