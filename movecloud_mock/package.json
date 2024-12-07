@@ -6,7 +6,7 @@
         "start": "json-server --watch db.json"
     },
     "dependencies": {
-        "express": "^4.19.2",
+        "express": "^4.21.2",
         "fs": "^0.0.1-security",
         "json-server": "^0.16.3"
     }
